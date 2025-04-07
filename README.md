@@ -2,9 +2,13 @@
 # ScalaCrud
 
 ![Scala](https://img.shields.io/badge/Scala-DC322F?logo=scala&logoColor=white)
+
 ![SQLite3](https://img.shields.io/badge/SQLite3-003B57?logo=sqlite&logoColor=white&color=blue)
+
 ![Platform: Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-black?logo=linux&logoColor=yellow)
-![Last Commit](https://img.shields.io/github/last-commit/ander1code/scala-crud?color=yellow&logo=github) ![Size](https://img.shields.io/github/repo-size/ander1code/scala-crud?color=blue&logo=files) ![License](https://img.shields.io/github/license/ander1code/scala-crud?color=black&logo=open-source-initiative)
+
+![Last Commit](https://img.shields.io/github/last-commit/ander1code/scala-crud?color=yellow&logo=github) 
+
 
 ## 1. Description
 **ScalaCrud** is a prototype application developed in **Scala** for managing individual registrations, utilizing an **SQLite3 database**. This project demonstrates fundamental CRUD operations with a focus on object-oriented principles and database integration through JDBC.
