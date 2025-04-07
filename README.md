@@ -1,28 +1,38 @@
+
 # ScalaCrud
 
-* Prototype of a small individual registration made in Scala with SQLite3 database.
+![Scala](https://img.shields.io/badge/Scala-DC322F?logo=scala&logoColor=white)
+![SQLite3](https://img.shields.io/badge/SQLite3-003B57?logo=sqlite&logoColor=white&color=blue)
+![Platform: Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-black?logo=linux&logoColor=yellow)
+![Last Commit](https://img.shields.io/github/last-commit/ander1code/scala-crud?color=yellow&logo=github) ![Size](https://img.shields.io/github/repo-size/ander1code/scala-crud?color=blue&logo=files) ![License](https://img.shields.io/github/license/ander1code/scala-crud?color=black&logo=open-source-initiative)
 
-## 1. Features:
+## 1. Description
+**ScalaCrud** is a prototype application developed in **Scala** for managing individual registrations, utilizing an **SQLite3 database**. This project demonstrates fundamental CRUD operations with a focus on object-oriented principles and database integration through JDBC.
 
-### 1.1 - ScalaScrud (Project's Folder):
+---
 
-* Project made in IntelliJ IDEA
-* Classes and Objects
-* META-INF/MANIFEST.MF
-* JDBC for SQLite
+## 2. Features
 
-### 1.2 - BIN (Binary's Folder):
+### 2.1. Project Folder: *ScalaCrud*
+- Developed using **IntelliJ IDEA**.
+- Incorporates **classes** and **objects** to demonstrate core Scala concepts.
+- Includes `META-INF/MANIFEST.MF` for defining metadata and enabling execution.
+- Utilizes **JDBC** for seamless connection and interaction with SQLite databases.
 
-* \* .jar file with project classes and libraries, such as SQLite JDBC.
-* Database's file *.sqlite3.
-* scalacrud.exe to invoke the execution of the *.jar file by scala in Windows environment.
+### 2.2. Binary Folder: *BIN*
+- Contains the `*.jar` file with compiled project classes and SQLite JDBC libraries.
+- Includes the database file `*.sqlite3` for data storage.
+- Provides a `scalacrud.exe` file to execute the `*.jar` in Windows environments using Scala.
 
-## 2. Tools used:
+---
 
-* Java SE 1.8.0_152
-* Scala 2.12.4
-* IntelliJ IDEA 2017.2.5 x64
-* SBT 1.0.3
-* SQLiteStudio v3.1.1
-* SQLite3
-* sqlite-jdbc-3.21.0
+## 3. Tools Used
+- **Java SE:** 1.8.0_152 for compatibility with Scala and SQLite.
+- **Scala:** 2.12.4 for developing the core application.
+- **IntelliJ IDEA:** Community Edition 2017.2.5 x64 as the primary IDE for development.
+- **SBT (Simple Build Tool):** 1.0.3 for project build and dependency management.
+- **SQLiteStudio:** v3.1.1 for database visualization and management.
+- **SQLite3:** Database engine for lightweight and efficient data handling.
+- **sqlite-jdbc:** 3.21.0 for integrating JDBC with SQLite.
+
+---
